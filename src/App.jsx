@@ -12,8 +12,8 @@ function App() {
 
   return (
     <>
-      <NameInput name={name} handleChange={handleChange} />
       <Greeting name={name} />
+      <NameInput name={name} handleChange={handleChange} />
       <hr></hr>
       <Weekday />
     </>
